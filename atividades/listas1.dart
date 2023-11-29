@@ -9,6 +9,6 @@ void main() {
     lista.add(int.parse(stdin.readLineSync()!));
   }
   //ordem crescente
-  lista.sort();
+  lista.sort(); //comando sort () serve para deixar a lista em ordem crescente
   print(lista);
 }

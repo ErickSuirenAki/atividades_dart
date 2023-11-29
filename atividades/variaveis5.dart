@@ -7,7 +7,7 @@ void main(){
 
   double areaParede =largura*altura;
   double tinta = areaParede *0.3;
-  int lataTinta = (tinta /2).ceil();
+  int lataTinta = (tinta /2).ceil(); //comando ceil() serve para converter o numero integer em double
 
   print("Para pintar uma parede de $areaParede metros quadrados, precisará de $lataTinta latas de tinta.");
 
