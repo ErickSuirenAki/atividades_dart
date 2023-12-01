@@ -1,16 +1,17 @@
+// import da biblioteca math para usar o Random( )
 import 'dart:math';
 
 void main() {
-  var lista = [];
-  Random random = new Random();
+  int lista = [];
   int i = 0;
-  while (i <= 10) {
+  while (i <10) {
     lista.add(random.nextInt(10));
+    //usei o comando random para adicionar 10 valores aleatorios a lista
     i++;
   }
-  var contador = 0;
-  var somador = 0;
-  var soma = 0;
+  int contador = 0;
+  int somador = 0;
+  int soma = 0;
   for (int numero in lista) {
     if (numero == 3) {
       contador++;
